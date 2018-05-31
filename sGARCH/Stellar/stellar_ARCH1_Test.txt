@@ -1,0 +1,6 @@
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  stellar_returns
+Chi-squared = 161.2, df = 1, p-value < 2.2e-16
+

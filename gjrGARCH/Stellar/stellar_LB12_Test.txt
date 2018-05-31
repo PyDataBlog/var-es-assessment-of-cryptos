@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  stellar_returns
+X-squared = 28.253, df = 12, p-value = 0.005079
+

@@ -1,0 +1,6 @@
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  bitcoin_returns
+Chi-squared = 87.202, df = 12, p-value = 1.714e-13
+

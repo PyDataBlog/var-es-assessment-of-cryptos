@@ -1,0 +1,7 @@
+
+	Augmented Dickey-Fuller Test
+
+data:  ripple_returns
+Dickey-Fuller = -7.7773, Lag order = 9, p-value = 0.01
+alternative hypothesis: stationary
+

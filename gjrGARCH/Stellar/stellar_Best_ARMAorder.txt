@@ -1,0 +1,21 @@
+
+ Fitting models using approximations to speed things up...
+
+ ARIMA(2,0,2) with non-zero mean : 7225.334
+ ARIMA(0,0,0) with non-zero mean : 7212.63
+ ARIMA(1,0,0) with non-zero mean : 7213.321
+ ARIMA(0,0,1) with non-zero mean : 7211.945
+ ARIMA(0,0,0) with zero mean     : 7209.06
+ ARIMA(1,0,1) with non-zero mean : 7215.036
+
+ Now re-fitting the best model(s) without approximations...
+
+ ARIMA(0,0,0) with zero mean     : 7209.06
+
+ Best model: ARIMA(0,0,0) with zero mean     
+
+Series: stellar_returns 
+ARIMA(0,0,0) with zero mean 
+
+sigma^2 estimated as 80.31:  log likelihood=-3601.08
+AIC=7204.15   AICc=7204.16   BIC=7209.06

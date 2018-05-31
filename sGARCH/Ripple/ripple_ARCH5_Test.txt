@@ -1,0 +1,6 @@
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  ripple_returns
+Chi-squared = 93.494, df = 5, p-value < 2.2e-16
+

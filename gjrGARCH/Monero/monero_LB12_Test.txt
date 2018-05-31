@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  monero_returns
+X-squared = 33.566, df = 12, p-value = 0.0007893
+

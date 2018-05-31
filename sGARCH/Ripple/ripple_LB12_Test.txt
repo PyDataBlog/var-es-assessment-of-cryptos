@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  ripple_returns
+X-squared = 41.94, df = 12, p-value = 3.408e-05
+

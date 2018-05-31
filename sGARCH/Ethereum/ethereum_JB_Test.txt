@@ -1,0 +1,6 @@
+
+	Jarque Bera Test
+
+data:  ethereum_returns
+X-squared = 165350, df = 2, p-value < 2.2e-16
+

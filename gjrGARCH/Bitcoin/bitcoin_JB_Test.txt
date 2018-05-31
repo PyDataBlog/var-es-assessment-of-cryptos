@@ -1,0 +1,6 @@
+
+	Jarque Bera Test
+
+data:  bitcoin_returns
+X-squared = 963.47, df = 2, p-value < 2.2e-16
+

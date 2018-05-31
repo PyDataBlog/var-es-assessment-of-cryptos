@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  ethereum_returns^2
+X-squared = 20.713, df = 12, p-value = 0.05475
+

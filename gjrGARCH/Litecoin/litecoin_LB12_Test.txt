@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  litecoin_returns
+X-squared = 25.388, df = 12, p-value = 0.01309
+

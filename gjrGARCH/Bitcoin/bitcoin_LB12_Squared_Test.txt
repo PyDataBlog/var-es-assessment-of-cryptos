@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  bitcoin_returns^2
+X-squared = 142.78, df = 12, p-value < 2.2e-16
+

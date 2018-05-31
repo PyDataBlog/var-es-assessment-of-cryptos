@@ -1,0 +1,6 @@
+
+	Jarque Bera Test
+
+data:  monero_returns
+X-squared = 2263, df = 2, p-value < 2.2e-16
+

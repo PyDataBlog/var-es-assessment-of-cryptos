@@ -1,0 +1,6 @@
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  monero_returns
+Chi-squared = 21.19, df = 1, p-value = 4.159e-06
+

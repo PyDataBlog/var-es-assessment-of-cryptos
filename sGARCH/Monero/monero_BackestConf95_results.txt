@@ -1,0 +1,26 @@
+VaR Backtest Report
+===========================================
+Model:				sGARCH-std
+Backtest Length:	847
+Data:				
+
+==========================================
+alpha:				1%
+Expected Exceed:	8.5
+Actual VaR Exceed:	5
+Actual %:			0.6%
+
+Unconditional Coverage (Kupiec)
+Null-Hypothesis:	Correct Exceedances
+LR.uc Statistic:	1.683
+LR.uc Critical:		3.841
+LR.uc p-value:		0.194
+Reject Null:		NO
+
+Conditional Coverage (Christoffersen)
+Null-Hypothesis:	Correct Exceedances and
+					Independence of Failures
+LR.cc Statistic:	1.743
+LR.cc Critical:		5.991
+LR.cc p-value:		0.418
+Reject Null:		NO

@@ -1,0 +1,26 @@
+
+ Fitting models using approximations to speed things up...
+
+ ARIMA(2,0,2) with non-zero mean : 5703.036
+ ARIMA(0,0,0) with non-zero mean : 5677.129
+ ARIMA(1,0,0) with non-zero mean : 5681.935
+ ARIMA(0,0,1) with non-zero mean : 5683.986
+ ARIMA(0,0,0) with zero mean     : 5677.351
+ ARIMA(1,0,1) with non-zero mean : 5688.607
+
+ Now re-fitting the best model(s) without approximations...
+
+ ARIMA(0,0,0) with non-zero mean : 5677.129
+
+ Best model: ARIMA(0,0,0) with non-zero mean 
+
+Series: bitcoin_returns 
+ARIMA(0,0,0) with non-zero mean 
+
+Coefficients:
+        mean
+      0.3509
+s.e.  0.1312
+
+sigma^2 estimated as 17.18:  log likelihood=-2831.66
+AIC=5667.32   AICc=5667.33   BIC=5677.13

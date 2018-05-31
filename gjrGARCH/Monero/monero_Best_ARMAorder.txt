@@ -1,0 +1,21 @@
+
+ Fitting models using approximations to speed things up...
+
+ ARIMA(2,0,2) with non-zero mean : 6873.323
+ ARIMA(0,0,0) with non-zero mean : 6851.583
+ ARIMA(1,0,0) with non-zero mean : 6856.406
+ ARIMA(0,0,1) with non-zero mean : 6857.143
+ ARIMA(0,0,0) with zero mean     : 6850.691
+ ARIMA(1,0,1) with non-zero mean : 6863.167
+
+ Now re-fitting the best model(s) without approximations...
+
+ ARIMA(0,0,0) with zero mean     : 6850.691
+
+ Best model: ARIMA(0,0,0) with zero mean     
+
+Series: monero_returns 
+ARIMA(0,0,0) with zero mean 
+
+sigma^2 estimated as 56.06:  log likelihood=-3421.89
+AIC=6845.79   AICc=6845.79   BIC=6850.69

@@ -1,0 +1,6 @@
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  ethereum_returns
+Chi-squared = 105.29, df = 12, p-value < 2.2e-16
+

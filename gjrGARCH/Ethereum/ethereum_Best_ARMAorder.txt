@@ -1,0 +1,37 @@
+
+ Fitting models using approximations to speed things up...
+
+ ARIMA(2,0,2) with non-zero mean : 6776.283
+ ARIMA(0,0,0) with non-zero mean : 7065.167
+ ARIMA(1,0,0) with non-zero mean : 6782.291
+ ARIMA(0,0,1) with non-zero mean : 7067.879
+ ARIMA(0,0,0) with zero mean     : 7062.629
+ ARIMA(1,0,2) with non-zero mean : 6795.683
+ ARIMA(3,0,2) with non-zero mean : 6761.235
+ ARIMA(3,0,1) with non-zero mean : 6790.238
+ ARIMA(3,0,3) with non-zero mean : 6748.094
+ ARIMA(4,0,4) with non-zero mean : 6755.721
+ ARIMA(3,0,3) with zero mean     : 6747.574
+ ARIMA(2,0,3) with zero mean     : 6797.355
+ ARIMA(4,0,3) with zero mean     : 6749.331
+ ARIMA(3,0,2) with zero mean     : 6763.522
+ ARIMA(3,0,4) with zero mean     : 6754.404
+ ARIMA(2,0,2) with zero mean     : 6775.157
+ ARIMA(4,0,4) with zero mean     : 6756.21
+
+ Now re-fitting the best model(s) without approximations...
+
+ ARIMA(3,0,3) with zero mean     : 7074.045
+
+ Best model: ARIMA(3,0,3) with zero mean     
+
+Series: ethereum_returns 
+ARIMA(3,0,3) with zero mean 
+
+Coefficients:
+         ar1     ar2      ar3      ma1      ma2     ma3
+      0.5569  0.2845  -0.8189  -0.4651  -0.2927  0.7345
+s.e.     NaN     NaN      NaN      NaN      NaN     NaN
+
+sigma^2 estimated as 67.65:  log likelihood=-3512.86
+AIC=7039.71   AICc=7039.83   BIC=7074.05

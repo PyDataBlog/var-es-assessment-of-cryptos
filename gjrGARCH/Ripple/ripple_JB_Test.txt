@@ -1,0 +1,6 @@
+
+	Jarque Bera Test
+
+data:  ripple_returns
+X-squared = 61653, df = 2, p-value < 2.2e-16
+

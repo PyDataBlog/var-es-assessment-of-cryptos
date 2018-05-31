@@ -1,0 +1,6 @@
+
+	Box-Ljung test
+
+data:  standadized_residuals
+X-squared = 17.023, df = 12, p-value = 0.1487
+

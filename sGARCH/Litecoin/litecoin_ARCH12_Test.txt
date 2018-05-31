@@ -1,0 +1,6 @@
+
+	ARCH LM-test; Null hypothesis: no ARCH effects
+
+data:  litecoin_returns
+Chi-squared = 61.058, df = 12, p-value = 1.447e-08
+

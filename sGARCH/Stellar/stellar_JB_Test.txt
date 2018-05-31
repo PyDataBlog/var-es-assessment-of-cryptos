@@ -1,0 +1,6 @@
+
+	Jarque Bera Test
+
+data:  stellar_returns
+X-squared = 9043.4, df = 2, p-value < 2.2e-16
+
