@@ -1,13 +1,14 @@
 '''
 Stage 1 involves selected the major cryptos
 based on a criteria of exceedance of market capitalization above $4bn
-
 Don't forget to set the folder in which this script is held in 
 as the current working folder before running the script
 '''
 
 # import needed libraries
 import pandas as pd
+import time
+from tqdm import tqdm
 pd.options.mode.chained_assignment = None 
 
 # read historical market cap table
@@ -48,6 +49,10 @@ selected_cryptos.loc[:, 'Name'] = no_ticker
 # rename properly bitcoin-cash
 selected_cryptos.loc[3, 'Name'] = 'Bitcoin-cash'
 
+# rename ripple properly
+selected_cryptos.loc[selected_cryptos.Name == 'XRP', 'Name'] = 'Ripple'
+
+
 # a list of crypto names
 crypto_names = list(selected_cryptos['Name'].str.lower())
 
@@ -55,11 +60,13 @@ crypto_names = list(selected_cryptos['Name'].str.lower())
 all_dfs = dict()
 
 # loop through the crypto_names list and get the data from coinmarketcap.com
-for name in crypto_names:
+for name in tqdm(crypto_names):
+    time.sleep(1)
     link = f'https://coinmarketcap.com/currencies/{name}/historical-data/?start=20090101&end=20180501'
-    
+    time.sleep(1)
     all_dfs[name] = pd.read_html(link)[0]
-
+    time.sleep(10)
+    
 # get only the date and close prices from the dict    
 for keys, values in all_dfs.items():
     values = values[['Date', 'Close**']]
@@ -119,4 +126,3 @@ final_df.index.rename("date", inplace=True)
 
 # save output file as master dataset
 final_df.to_csv("master_dataset.csv", index=True)
-
