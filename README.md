@@ -11,10 +11,8 @@ This README supplies the codes and files generated for the dissertation.
 
 * Just simply clone or download this repository
 * Run the scripts provided to generate the files and run the analysis
-* OR Use the files that came 
-* Database configuration
-* How to run tests
-* Deployment instructions
+* OR simply use the files that came 
+
 
 ### Contribution guidelines ###
 
